@@ -1,0 +1,33 @@
+{
+  "name": "rollup-ts-tw-template",
+  "version": "0.1.0",
+  "description": "A template including Rollup, TypeScript and TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iansedano/rollup-ts-tw-template.git"
+  },
+  "author": "Ian Currie Sedano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iansedano/rollup-ts-tw-template/issues"
+  },
+  "homepage": "https://github.com/iansedano/rollup-ts-tw-template#readme",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.21.2",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "rollup-plugin-gzip": "^4.0.1",
+    "rollup-plugin-includepaths": "^0.2.4",
+    "tslib": "^2.7.0",
+    "typescript": "^5.5.4"
+  }
+}
